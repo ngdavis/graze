@@ -14,8 +14,10 @@ RoxygenNote: 7.3.1
 URL: https://github.com/ngdavis/graze
 BugReports: https://github.com/ngdavis/graze/issues
 Depends:
-    R (>= 4.3.1)
+    R (>= 4.3.0)
 Imports:
     units (>= 0.8-5),
-    xml2,
     dplyr (>= 1.1.4)
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
