@@ -10,5 +10,5 @@ _graze_ is an R package designed to assist scientists, livestock managers, and r
 ## Installation
 Currently, only the development version of the package is available. It can be installed with:
 ```
-devtools::install_github("ngdavis/graze")
+remotes::install_github("ngdavis/graze")
 ```
